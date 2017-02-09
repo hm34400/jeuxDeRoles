@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 févr. 2017, 13:56:08
+    Author     : hicham
+*/
+body{
+    visibility: hidden;
+    background-color: dodgerblue;
+}
+button{
+    position: relative;
+    color: whitesmoke;
+    background-color: goldenrod;
+    width: 300px;
+    height: 100px;
+    line-height: 75px;
+    vertical-align: middle;
+    font-size: 3em;
+}
+#selection{
+    position: relative;
+    width: 300px;
+    display: none;
+}
+#selection > input{
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+#selection > input[type='text']{
+    background-color: rgba(255,255,255,0.4);
+    margin-bottom: 10px;
+    
+}
